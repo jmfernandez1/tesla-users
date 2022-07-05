@@ -1,0 +1,16 @@
+extends ../layout
+
+block content
+    h1.
+         #{title}
+    ul
+        - each user, i in users
+            li
+                = "Nombre: "+ user.name +  ' - '
+                = "Usuario: " +user.username +  ' - '
+                = "Fecha de nacimiento: " +user.bornDate +  ' - '
+                = "Email: " + user.email +  ' - '
+                = "Pais: " +user.country +  ' - '
+                = "Lenguaje: " +user.language
+
+
