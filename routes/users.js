@@ -33,7 +33,7 @@ router.get('/', function (req, res, next) {
   })
 });
 
-router.get('/:id', function (req, res, next) {
+router.get('/one/:id', function (req, res) {
   db.collection('User').findOne( {"_id": ObjectId(req.params.id)
   }, function (err, user) {
     console.log(user)

@@ -12,7 +12,7 @@ Agregar usuario  `http://127.0.0.1:3000/users/new`.
 
 Ver todos los usuarios  `http://127.0.0.1:3000/users`.
 
-Ver un usuario usuarios  `http://127.0.0.1:3000/users/id`.
+Ver un usuario usuarios  `http://127.0.0.1:3000/users/one/${id}`.
 
 
 
